@@ -22,6 +22,5 @@ Gem::Specification.new do |s|
                            
   s.files        = Dir.glob("{bin,data,lib}/**/*") + %w(README.mdown)
   s.executables  = ['pericope']
-  s.default_executable = 'pericope'
   s.require_path = 'lib'
 end
